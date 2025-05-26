@@ -11,7 +11,7 @@ final GoRouter router = GoRouter(
     ),
     GoRoute(
       path: '/sign-in',
-      builder: (context, state) => const SignIn(),
+      builder: (context, state) => SignIn(),
     ),
   ],
 );

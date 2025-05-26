@@ -1,3 +1,4 @@
+import 'package:expense_tracker_app/core/constants/app_colors.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
@@ -24,6 +25,7 @@ class _OnboardingState extends State<Onboarding> {
 @override
   Widget build(BuildContext context) {
     return  Scaffold(
+      backgroundColor: AppColors.backgroundColor,
       body: Center(
         child: Image.asset('assets/images/spendwiselogo2.png'),
       ),
