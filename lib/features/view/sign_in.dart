@@ -12,7 +12,7 @@ class SignIn extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: AppColors.backgroundColor,
+      
       body: SafeArea(
         child: Padding(
           padding: const EdgeInsets.symmetric(horizontal: 12),
@@ -115,7 +115,7 @@ class SignIn extends StatelessWidget {
                   child: FilledButton(
                       onPressed: () {},
                       style: FilledButton.styleFrom(
-                          backgroundColor: AppColors.backgroundColor,
+                          // backgroundColor: AppColors.backgroundColor,
                           shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(10),
                         side: BorderSide(color: Colors.grey)

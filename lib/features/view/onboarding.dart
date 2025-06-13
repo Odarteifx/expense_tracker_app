@@ -25,7 +25,7 @@ class _OnboardingState extends State<Onboarding> {
 @override
   Widget build(BuildContext context) {
     return  Scaffold(
-      backgroundColor: AppColors.backgroundColor,
+      backgroundColor: Colors.transparent,
       body: Center(
         child: Image.asset('assets/images/spendwiselogo2.png'),
       ),

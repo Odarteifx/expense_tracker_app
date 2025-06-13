@@ -17,18 +17,18 @@ class MyApp extends StatelessWidget {
       routerConfig: router,
       debugShowCheckedModeBanner: false,
       title: 'SpendWise',
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.black),
-        textTheme: GoogleFonts.interTextTheme(),
-        useMaterial3: true,
+      darkTheme: ThemeData(
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.yellow)
+      ),
+      theme: ThemeData.dark(
+       
       ),
     );
   }
 }
 
 class ExpenseTracker extends StatelessWidget {
-  const ExpenseTracker
-({super.key});
+  const ExpenseTracker({super.key});
 
   @override
   Widget build(BuildContext context) {
